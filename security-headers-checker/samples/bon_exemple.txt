@@ -1,0 +1,9 @@
+HTTP/2 200
+server: nginx
+content-type: text/html; charset=utf-8
+strict-transport-security: max-age=63072000; includeSubDomains
+content-security-policy: default-src 'self'; frame-ancestors 'none'
+x-content-type-options: nosniff
+referrer-policy: strict-origin-when-cross-origin
+permissions-policy: camera=(), microphone=(), geolocation=()
+set-cookie: session=abc123; Secure; HttpOnly; SameSite=Lax; Path=/
